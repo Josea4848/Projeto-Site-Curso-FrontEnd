@@ -15,3 +15,15 @@
   border: 0;
   vertical-align: baseline;
 }
+
+.container {
+  width: 1024px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
