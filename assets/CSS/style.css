@@ -6,6 +6,7 @@
 @import url(buttons.css);
 @import url(main.css);
 @import url(footer.css);
+@import url(responsive.css);
 
 /* RESET CSS */
 * {
@@ -21,7 +22,9 @@
 }
 
 body {
-  background: url("../Images/bolha-background.png") no-repeat left center;
+  background-image: url("../Images/bolha-background.png");
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .container {
