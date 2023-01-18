@@ -58,6 +58,10 @@
     justify-content: center;
   }
 
+  footer ul li {
+    margin: 0px 15px 0 15px;
+  }
+
 }
 
 @media screen and (max-width:665px){
