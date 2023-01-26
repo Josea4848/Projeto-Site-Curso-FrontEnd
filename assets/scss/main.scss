@@ -1,36 +1,46 @@
+//sobre-web-design
 .sobre-web-design {
   align-items: center;
   justify-content: space-between;
-}
 
-.sobre-web-design article {
-  width: 250px;
-}
+  //article
+  article {
+    width: 250px;
+    //h1
+    h1 {
+      font-size: $font-h1;
+      line-height: 90%;
+      font-weight: 400;
+      color: $color-secundaria;
+    }
+    //h1 END
+    //h2
+    h2 {
+      font-size: $font-h2;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 200%;
+    }
+    //h2 END
+    h2, p {
+      color: $color-primaria;
+    }
+    
+    p {
+      margin: 10px 0px 40px;
+    }
 
-.sobre-web-design article h1 {
-  font-size: $font-h1;
-  line-height: 90%;
-  font-weight: 400;
-  color: $color-secundaria;
-}
+  }
+  //article END
 
-.sobre-web-design article h2,
-.sobre-web-design article p {
-  color: $color-primaria;
+  //figcaption
+  figcaption {
+    //img
+    img {
+      width: 800px;
+    }
+    //img END
+  }
+  //figcaption END
 }
-
-
-.sobre-web-design article h2 {
-  font-size: $font-h2;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 200%;
-}
-
-.sobre-web-design article p {
-  margin: 10px 0px 40px;
-}
-
-.sobre-web-design figcaption img {
-  width: 800px;
-}
+//.sobre-web-design END

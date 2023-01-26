@@ -13,9 +13,13 @@
   }
 
   
-.sobre-web-design figcaption img {
-  width: 600px;
-}
+  .sobre-web-design {
+    figcaption {
+      img {
+        width: 600px;
+      }
+    } 
+  }
 
 }
 
@@ -31,35 +35,44 @@
     width: 700px;
   }
 
-  .sobre-web-design figcaption img {
-    width: 500px;
-  }
-
   .row {
     display: flex;
     flex-direction: column;
   }
 
-  .header nav{
-    margin: 30px 0px;
+  .header {
+    nav{
+      margin: 30px 0px;
+    }
   }
 
-  .sobre-web-design article {
-    width: 100%;
+  .sobre-web-design {
+    article {
+      width: 100%;
+    }
+
+    figcaption {
+      img {
+        width: 100%;
+        margin: 30px 0 0 0;
+      }
+    }
+
   }
 
-  .sobre-web-design figcaption img {
-    width: 100%;
-    margin: 30px 0 0 0;
-  }
+  footer {
+    ul {
+      
+      &.row {
+        flex-direction: row;
+        justify-content: center;
+      }
+      
+      li {
+        margin: 0px 15px 0 15px;
+      }
 
-  footer ul.row {
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  footer ul li {
-    margin: 0px 15px 0 15px;
+    }
   }
 
 }
@@ -79,20 +92,23 @@
     width: 290px;
   }
 
-  .header nav {
-    background: $color-branco;
-    width: 100%;
-    padding: 10px 0px 20px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-  }
+  .header {
+    nav {
+      background: $color-branco;
+      width: 100%;
+      padding: 10px 0px 20px;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
 
-  .header nav ul {
-    flex-direction: column;
-  }
+      ul {
+        flex-direction: column;
 
-  .header nav ul li {
-    margin: 10px 0;
+        li {
+          margin: 10px 0;
+        }
+      }
+      
+    }
   }
 
 }
