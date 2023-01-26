@@ -1,0 +1,46 @@
+//sobre-web-design
+.sobre-web-design {
+  align-items: center;
+  justify-content: space-between;
+
+  //article
+  article {
+    width: 250px;
+    //h1
+    h1 {
+      font-size: $font-h1;
+      line-height: 90%;
+      font-weight: 400;
+      color: $color-secundaria;
+    }
+    //h1 END
+    //h2
+    h2 {
+      font-size: $font-h2;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 200%;
+    }
+    //h2 END
+    h2, p {
+      color: $color-primaria;
+    }
+    
+    p {
+      margin: 10px 0px 40px;
+    }
+
+  }
+  //article END
+
+  //figcaption
+  figcaption {
+    //img
+    img {
+      width: 800px;
+    }
+    //img END
+  }
+  //figcaption END
+}
+//.sobre-web-design END
